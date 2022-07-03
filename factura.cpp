@@ -2,7 +2,7 @@
 using namespace std;
 
 double subtotal;
-float impsv = 12;
+float impsv = 15;
 double total;
 string listaProductos;
 void agregarProducto(string descripcion,int cantidad,double precio)
@@ -29,7 +29,7 @@ void imprimirFactura()
 	total = subtotal + impsv;
 	cout<<"Subtotal: "<<subtotal<<" Lps";
 	cout<<endl;
-	cout<<"Impuesto del 12%: "<<impsv<<" Lps"<<endl;
+	cout<<"Impuesto del 15%: "<<impsv<<" Lps"<<endl;
 	cout<<endl;
 	cout<<"TOTAL A PAGAR: "<<total<<" Lps"<<endl;
 	system("pause");
