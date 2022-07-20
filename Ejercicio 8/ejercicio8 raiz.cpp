@@ -10,7 +10,7 @@ double numeroRaiz(double n1)// funcion
 int main()
 {
 	
-	double numero = 0, raiz = 0;
+	double numero = 0;
 	cout<<"Ingrese un numero para poder saber su raiz: ";//pedimos al usuario un numero
 	cin>>numero;
 	
